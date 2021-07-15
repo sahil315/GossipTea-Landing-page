@@ -138,6 +138,7 @@ nav{
 /*Featured collection*/
 .featured-container ul{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 75px;
     list-style: none;
     justify-content: space-between;
