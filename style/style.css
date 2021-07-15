@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 16px;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    font-size: 18px;
+    color: black;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+nav ul li:active{
+    text-decoration: underline;
+}
+nav ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+    padding: 0;
+    text-align: center;
+    margin: 25px 0;
+    width: 550px;
+}
+.logo img{
+    max-width: 190px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 55px;
+    border-bottom: 1px solid #ebebeb;
+}
+.top-nav-banner{
+    text-align: -webkit-center;
+    background-color: #7da61b;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-nav-banner:hover{
+    background-color: #95c620;
+}
+.login-icons{
+    color:#3a3a3a;
+    width: 150px;
+    align-self: center;
+}
+.login-icons i{
+    margin-right: 20px;
+    color:#3a3a3a;
+    fill: currentColor;
+    font-size: 18px;
+}
+/*hero*/
+.hero-img{
+    background-image: url(https://cdn.shopify.com/s/files/1/0503/3191/0333/files/Gossip-banner-01.jpg?v=1617867702);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 100%;
+}
+
+.hero-card-container{
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 97%;
+    height: 203px;
+    top: 740px;
+    
+}
+.card-image1{
+    width: 30%;
+    position: absolute;
+    left: 2%;
+    top: 40px;
+    border-radius: 5px;
+    height: 65%;
+}
+.card-image2{
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 40px;
+    border-radius: 5px;
+    height: 65%;
+}
+.card-image3{
+    width: 30%;
+    position: absolute;
+    left: 67%;
+    top: 40px;
+    border-radius: 5px;
+    height: 65%;
+}
+.hero-card{
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    width: 3rem;
+    padding: 2rem 1rem;
+    background: white;
+    /* border: 3px solid #51aaa3; */
+    color: #51aaa3;
+    margin: 0.375rem;
+    flex-grow: 1;
+    border-radius: 6px;
+    -webkit-box-shadow: 4px 4px 18px 0px rgb(0 0 0 / 75%);
+    cursor: pointer;
+}
+
+/*Featured collection*/
+.featured-container ul{
+    display: flex;
+    margin-top: 75px;
+    list-style: none;
+    justify-content: space-between;
+}
+.featured-box a img{
+    width: 250px;
+    height: 250px;
+}
+.featured-heading, h1, h2, h3{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+    margin: 40px 0 17.5px;
+    text-align: center;
+    
+}
+.featured-text{
+    border-bottom: 1px solid transparent;
+    display: inline;
+    margin: 10px 0px;
+    color: #3a3a3a;
+    font-weight: 800;
+    font-family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+}
+.price{
+    color: #3a3a3a;
+    font-weight: 700;
+    font-family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+}
+.featured-box a{
+    display: flex;
+    flex-direction: column;
+}
