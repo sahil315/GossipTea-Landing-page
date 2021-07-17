@@ -263,7 +263,7 @@ nav{
     position: relative;
     background-position: center center;
     overflow: hidden;
-    border: 1px solid transparent;
+   =
     
 }
 .featured-box-overlay{
@@ -312,18 +312,10 @@ nav{
     transform: scale(1.3);
     transition: transform 1s;
     filter: blur(2px);
-    border-radius: 25px;
-    border: 1px solid black;
-    -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-    
 }
 .featured-box:hover .featured-box-overlay{
     opacity: 1;
     transform: scale(1);
-    border-radius: 25px;
-    border: 1px solid black;
 }
 /*Hero image 2*/
 .hero-image_2 {
