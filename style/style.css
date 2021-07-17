@@ -590,3 +590,22 @@ margin-left: 10px;
     justify-content: space-between;
     flex-direction: row-reverse;
 }
+
+
+@media only screen and (max-width:480px) {
+    .about-us{
+        margin: 0 auto!important;
+    }
+    .featured-container ul{
+        justify-content: center!important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-us{
+        margin: 0 auto!important;
+    }
+    .featured-container ul{
+        justify-content: center!important;
+    }
+}
